@@ -1,0 +1,45 @@
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .controls label {
+    margin-right: 15px;
+    font-size: 14px;
+  }
+  
+  .controls select {
+    padding: 5px;
+    font-size: 14px;
+    margin-left: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    justify-content: space-evenly;
+  }
+  
+  .column {
+    flex: 1;
+    min-width: 280px;
+    max-width: 320px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  .task {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
